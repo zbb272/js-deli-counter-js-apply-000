@@ -1,6 +1,6 @@
 function takeANumber(line){
-  line[line.length] = line.length;
-  return "Welcome, " + name + ". You are number " + line.length + " in line.";
+  line[line.length] = line.length + 1;
+  return "Welcome. You are number " + line.length + " in line.";
 }
 
 function nowServing(katzDeliLine){
